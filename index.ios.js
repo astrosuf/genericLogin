@@ -6,10 +6,12 @@ import {
   View
 } from 'react-native';
 
+import Index from './src/index.js';
+
 export default class genericLogin extends Component {
   render() {
     return (
-      <Text> Sufiyaan was here</Text>
+      <Index />
     );
   }
 }
